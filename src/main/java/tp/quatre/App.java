@@ -217,6 +217,18 @@ public class App {
         resultat/=tours;
         System.out.println("En moyenne, sur "+ tours + " parties, il m'a fallu " + resultat + " tentatives.");
     }
+
+    static void devineLeNombre (int tours) {
+        int cpuNombre = new Random().nextInt(100) ;
+        int humNombre = 0;
+
+        while (cpuNombre == humNombre) {
+            Scanner scan = new Scanner(System.in);
+            
+            scan.close();
+
+        }
+    }
     public static void main(String[] args){
         //guess1();
         //guess2();
